@@ -1,0 +1,20 @@
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#111;font-family:Georgia,"Times New Roman",serif;color:#f4ecd8}
+#c{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+#hud{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px;background:linear-gradient(#000a,#0000);pointer-events:none;flex-wrap:wrap}
+#brand{display:flex;flex-direction:column;font-size:18px;text-shadow:0 1px 3px #000}#brand span{font-size:13px;color:#e8c77a;font-family:system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+#btns{display:flex;gap:6px;pointer-events:auto}
+button,select{font:600 14px system-ui,sans-serif;background:#1d1a16e6;color:#f4ecd8;border:1px solid #8a6d33;border-radius:8px;padding:8px 12px;cursor:pointer}
+button:hover{background:#3a2f1c}
+#caption{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);max-width:min(720px,92vw);background:#120f0ce8;border:1px solid #8a6d33;border-radius:10px;padding:10px 16px;font-size:15px;text-align:center}
+#caption b{color:#e8c77a}
+#help{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(460px,92vw);background:#16130fef;border:1px solid #8a6d33;border-radius:12px;padding:16px 20px;font:15px/1.45 system-ui,sans-serif}
+#help h3{margin:0 0 8px;font-family:Georgia,serif;color:#e8c77a}
+#overlay{position:fixed;inset:0;background:#000e;display:flex;align-items:center;justify-content:center;z-index:5}
+#ovInner{display:flex;flex-direction:column;align-items:center;max-width:96vw;max-height:94vh;gap:10px}
+#ovImg{max-width:94vw;max-height:76vh;object-fit:contain;border:10px solid #6b4f22;box-shadow:0 0 40px #000;background:#222}
+#ovNo{width:min(600px,90vw);padding:60px 30px;border:10px solid #6b4f22;background:#2a2620;text-align:center;font-size:18px}
+#ovText{max-width:min(900px,94vw);text-align:center;font-family:system-ui,sans-serif}#ovText h2{margin:0;font-family:Georgia,serif;color:#e8c77a}
+#ovText p{margin:4px 0;font-size:14px}#ovSrc{color:#a99d85;font-size:12px!important}
+#ovClose{position:fixed;top:12px;right:14px;font-size:20px}
+[hidden]{display:none!important}
+@media (max-width:600px){#brand{font-size:15px}button,select{padding:7px 9px;font-size:13px}#caption{font-size:13px}}

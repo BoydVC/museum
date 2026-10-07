@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Build Night Museum · TokenMax · Oct 7 2026</title>
+<!--CSS-->
+</head><body>
+<canvas id="c"></canvas>
+<div id="hud">
+  <div id="brand"><b>Build Night Museum</b><span id="where">Lobby</span></div>
+  <div id="btns">
+    <button id="tourBtn" title="Auto-tour (T)">▶ Auto-tour</button>
+    <select id="roomSel" title="Jump to a room"></select>
+    <button id="helpBtn" title="Controls">?</button>
+  </div>
+</div>
+<div id="caption" hidden></div>
+<div id="help" hidden>
+  <h3>How to walk the museum</h3>
+  <p><b>Desktop:</b> W A S D or the arrow keys to walk (← → turn). Drag with the mouse to look around. Click the floor to walk there. Click a painting to see it full-screen. <b>T</b> starts or stops the auto-tour.</p>
+  <p><b>Phone:</b> tap the floor to walk there, swipe left or right to turn, swipe up or down to walk. Tap a painting to open it.</p>
+  <button id="helpClose">Got it</button>
+</div>
+<div id="overlay" hidden>
+  <div id="ovInner">
+    <img id="ovImg" alt="">
+    <div id="ovNo" hidden></div>
+    <div id="ovText"><h2 id="ovTitle"></h2><p id="ovDesc"></p><p id="ovStats"></p><p id="ovSrc"></p></div>
+  </div>
+  <button id="ovClose" aria-label="Close">✕</button>
+</div>
+<!--DATA-->
+<!--SCRIPTS-->
+</body></html>

@@ -1,0 +1,854 @@
+{
+ "generatedAt": "2026-10-07T18:57:31-04:00",
+ "rooms": [
+  {
+   "title": "Fleet",
+   "subtitle": "Grok Bot fleet",
+   "count": 12
+  },
+  {
+   "title": "Sports",
+   "subtitle": "Ravens \u00b7 Orioles \u00b7 Chelsea \u00b7 Terps",
+   "count": 7
+  },
+  {
+   "title": "Family & Kids",
+   "subtitle": "Char, Vic and the Boyd household",
+   "count": 7
+  },
+  {
+   "title": "Work",
+   "subtitle": "KPD and the day job",
+   "count": 4
+  },
+  {
+   "title": "Space & Fun",
+   "subtitle": "Starship, bookmarks and the rest",
+   "count": 11
+  }
+ ],
+ "paintings": [
+  {
+   "name": "bot-island",
+   "title": "\ud83c\udfdd\ufe0f Bot Island",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A living map of Boyd's Grok Bot fleet. Every bot (Michael, Pam, Oscar, Jim, Kelly, Dwight, the tutors, the Family Times, Pods, Path, Brief, Ryan, Dr.",
+   "stats": {
+    "files": 38,
+    "loc": 2712,
+    "tests": 2,
+    "screenshots": 16
+   },
+   "image": {
+    "src": "screenshots/live.png",
+    "file": "img/bot-island.jpg",
+    "w": 960,
+    "h": 744
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "bot-island-3d",
+   "title": "\ud83c\udfdd\ufe0f Bot Island 3D",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A Three.js remake of Bot Island, the live map of Boyd's Grok Bot fleet.",
+   "stats": {
+    "files": 28,
+    "loc": 720,
+    "tests": 5,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/00-best-sep11-messages.png",
+    "file": "img/bot-island-3d.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "fleet-funnies",
+   "title": "Fleet Funnies",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A daily comic strip starring Boyd's Grok Bots.",
+   "stats": {
+    "files": 189,
+    "loc": 3409,
+    "tests": 2,
+    "screenshots": 8
+   },
+   "image": {
+    "src": "screenshots/01-comics-page.png",
+    "file": "img/fleet-funnies.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "fleet-yearbook",
+   "title": "The Fleet \u201926 \u2014 Grok Bot Yearbook",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A high-school-yearbook-style book about Boyd's Grok Bot fleet (TokenMax build night, Oct 7 2026).",
+   "stats": {
+    "files": 42,
+    "loc": 1038,
+    "tests": 1,
+    "screenshots": 6
+   },
+   "image": {
+    "src": "screenshots/cover-1920x1080.png",
+    "file": "img/fleet-yearbook.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "fleet-doctor",
+   "title": "\ud83e\ude7a Fleet Doctor: a report card for Boyd's Grok Bot fleet",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "Fleet Doctor reads the bot metadata on this box read-only and grades every bot from A to F.",
+   "stats": {
+    "files": 15,
+    "loc": 521,
+    "tests": 2,
+    "screenshots": 3
+   },
+   "image": {
+    "src": "screenshots/00-best-desktop-report-cards.png",
+    "file": "img/fleet-doctor.jpg",
+    "w": 960,
+    "h": 1200
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "ship-it-stats",
+   "title": "\ud83d\ude80 Ship-it Stats",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A @poteto-style \"how I shipped N PRs\" scoreboard for Boyd's own agent work.",
+   "stats": {
+    "files": 18,
+    "loc": 565,
+    "tests": 1,
+    "screenshots": 6
+   },
+   "image": {
+    "src": "screenshots/00-best-desktop-top.png",
+    "file": "img/ship-it-stats.jpg",
+    "w": 960,
+    "h": 667
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "bot-launcher",
+   "title": "\ud83d\ude80 Bot Launcher",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "Boyd's personal \"bot app store\": one card for each of the 15 Grok Bots in the fleet, plus a Build Night shelf that links to every TokenMax project from Oct 7, 2026.",
+   "stats": {
+    "files": 18,
+    "loc": 499,
+    "tests": 2,
+    "screenshots": 6
+   },
+   "image": {
+    "src": "screenshots/00-best-desktop-fleet.png",
+    "file": "img/bot-launcher.jpg",
+    "w": 960,
+    "h": 1000
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "explainer-studio",
+   "title": "Explainer Studio",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "Turns Jim's Interest Journal entries (/workspace/ijresearch.md, ijx.md, ijcontent.md, ijbookmarks.md) into short animated explainer videos: 1080p30 H.264 MP4, 45\u201375\u2026",
+   "stats": {
+    "files": 170,
+    "loc": 2322,
+    "tests": 0,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/agents-go-to-work-oct-6_contact.png",
+    "file": "img/explainer-studio.jpg",
+    "w": 960,
+    "h": 641
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "agent-playbook",
+   "title": "Agent Playbook",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "An interactive field guide. It distills Boyd's bookmarks on personal agent systems, AI coding and pstack / @poteto into 11 concrete patterns, then holds his Grok Bot\u2026",
+   "stats": {
+    "files": 24,
+    "loc": 939,
+    "tests": 1,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/01-hero-radar.png",
+    "file": "img/agent-playbook.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "llm-box-advisor",
+   "title": "\ud83d\udda5\ufe0f Local LLM Box Advisor",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "Could Boyd run his Grok Bot fleet, or parts of it, on his own hardware, and what would it take?",
+   "stats": {
+    "files": 24,
+    "loc": 868,
+    "tests": 1,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/01-overview.png",
+    "file": "img/llm-box-advisor.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "trailer",
+   "title": "Build Night Trailer",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A cinematic 60\u201390 s trailer of everything TokenMax built on Oct 7, 2026 from Boyd's leftover Grok Bot usage.",
+   "stats": {
+    "files": 620,
+    "loc": 781,
+    "tests": 2,
+    "screenshots": 0
+   },
+   "image": {
+    "src": "out/contact-sheet.png",
+    "file": "img/trailer.jpg",
+    "w": 960,
+    "h": 1086
+   },
+   "imageNote": "out/ image (no screenshots folder)"
+  },
+  {
+   "name": "recap",
+   "title": "Build Night Recap \u2014 Oct 7, 2026",
+   "room": "Fleet",
+   "roomIndex": 0,
+   "desc": "A printable program (US Letter PDF, 2\u20134 pages) and a 1920\u00d71080 poster summarizing everything TokenMax built tonight.",
+   "stats": {
+    "files": 60,
+    "loc": 840,
+    "tests": 0,
+    "screenshots": 0
+   },
+   "image": {
+    "src": "dist/build-night-poster.png",
+    "file": "img/recap.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "dist/ image (no screenshots folder)"
+  },
+  {
+   "name": "sports-desk",
+   "title": "The Sports Desk",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "A newspaper-style sports front for Boyd's teams (Ravens, Chelsea, Orioles, Terps men's basketball), with ESPN-style data viz.",
+   "stats": {
+    "files": 94,
+    "loc": 1405,
+    "tests": 1,
+    "screenshots": 4
+   },
+   "image": {
+    "src": "screenshots/desktop-1440-full.png",
+    "file": "img/sports-desk.jpg",
+    "w": 960,
+    "h": 960
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "ravens-film-room",
+   "title": "Ravens Film Room",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "Interactive breakdown of the Baltimore Ravens' most recent completed game, plus a Scouting Report tab for the next game.",
+   "stats": {
+    "files": 47,
+    "loc": 1470,
+    "tests": 1,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/live.png",
+    "file": "img/ravens-film-room.jpg",
+    "w": 960,
+    "h": 1000
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "orioles-2026",
+   "title": "Orioles 2026 \u00b7 Season in Review",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "An interactive scrapbook of the Baltimore Orioles' 2026 regular season, built for Boyd by TokenMax.",
+   "stats": {
+    "files": 32,
+    "loc": 771,
+    "tests": 1,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/00-best-hero-and-season-chart.png",
+    "file": "img/orioles-2026.jpg",
+    "w": 960,
+    "h": 996
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "chelsea-time-machine",
+   "title": "Blue Since Boyhood: Chelsea FC, 1990s to now",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "An interactive Chelsea history for Boyd, a Chelsea fan since the 1990s.",
+   "stats": {
+    "files": 90,
+    "loc": 793,
+    "tests": 1,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/01-timeline.png",
+    "file": "img/chelsea-time-machine.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "chelsea-matchday",
+   "title": "Chelsea Matchday",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "A matchday-programme-style preview of Chelsea v AFC Bournemouth, Premier League.",
+   "stats": {
+    "files": 43,
+    "loc": 942,
+    "tests": 1,
+    "screenshots": 4
+   },
+   "image": {
+    "src": "screenshots/live.png",
+    "file": "img/chelsea-matchday.jpg",
+    "w": 960,
+    "h": 933
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "terps-preview",
+   "title": "Terps Hoops 2026\u201327 Preview",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "A preseason magazine-style preview of Maryland men's basketball, built for Boyd (UMD) by TokenMax.",
+   "stats": {
+    "files": 37,
+    "loc": 591,
+    "tests": 1,
+    "screenshots": 11
+   },
+   "image": {
+    "src": "screenshots/00-best-cover.png",
+    "file": "img/terps-preview.jpg",
+    "w": 960,
+    "h": 782
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "season-book",
+   "title": "Season Book: Fall 2026 yearbook + scorebook for Vic and Char",
+   "room": "Sports",
+   "roomIndex": 1,
+   "desc": "A yearbook-style scorebook for the Aug 1 \u2013 Dec 31, 2026 fall season, built from Boyd's Google Calendar and Gmail.",
+   "stats": {
+    "files": 43,
+    "loc": 1046,
+    "tests": 2,
+    "screenshots": 7
+   },
+   "image": {
+    "src": "screenshots/01-overview.png",
+    "file": "img/season-book.jpg",
+    "w": 960,
+    "h": 676
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "fridge-board",
+   "title": "Boyd Fridge Board \ud83e\uddf2",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A warm, kid-friendly progress board for Char (8th grade) and Vic (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
+   "stats": {
+    "files": 23,
+    "loc": 1268,
+    "tests": 2,
+    "screenshots": 6
+   },
+   "image": {
+    "src": "screenshots/01-home.png",
+    "file": "img/fridge-board.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "family-week",
+   "title": "Family Week: the Boyds' kitchen-display week planner",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A 1920\u00d71080 board for the kitchen TV. It shows who has to be where, who drives each leg, and where the week breaks.",
+   "stats": {
+    "files": 35,
+    "loc": 1842,
+    "tests": 5,
+    "screenshots": 11
+   },
+   "image": {
+    "src": "screenshots/ambient.png",
+    "file": "img/family-week.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "times-archive",
+   "title": "Times Archive: The Boyd Family Times, bound and shelved",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A searchable archive of every saved edition of The Boyd Family Times, Boyd's daily household newspaper bot.",
+   "stats": {
+    "files": 305,
+    "loc": 1021,
+    "tests": 2,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/01-front-page.png",
+    "file": "img/times-archive.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "hspt-quest",
+   "title": "HSPT Quest \ud83e\udded",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A game-style practice app for Charlotte's HSPT (Nov 17, 2026, at SJE).",
+   "stats": {
+    "files": 37,
+    "loc": 1454,
+    "tests": 6,
+    "screenshots": 16
+   },
+   "image": {
+    "src": "screenshots/desktop-01-home.png",
+    "file": "img/hspt-quest.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "math-arcade",
+   "title": "Vic's Math Arcade \ud83c\udfdf\ufe0f",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "An arcade-style practice game for 6th-grade math, built for Vic (Green Hornets \u26bd, baseball \u26be).",
+   "stats": {
+    "files": 49,
+    "loc": 1120,
+    "tests": 7,
+    "screenshots": 33
+   },
+   "image": {
+    "src": "screenshots/00-best-home-desktop.png",
+    "file": "img/math-arcade.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "writing-studio",
+   "title": "Char's Writing Studio",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A calm, offline writing-practice app for an 8th grader: pick a prompt \u2192 plan \u2192 write with live feedback \u2192 self-check.",
+   "stats": {
+    "files": 34,
+    "loc": 1133,
+    "tests": 3,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/01-desktop-write-feedback.png",
+    "file": "img/writing-studio.jpg",
+    "w": 960,
+    "h": 1067
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "trivia-night",
+   "title": "Boyd Family Trivia Night",
+   "room": "Family & Kids",
+   "roomIndex": 2,
+   "desc": "A Jeopardy-style game for the kitchen TV.",
+   "stats": {
+    "files": 126,
+    "loc": 868,
+    "tests": 2,
+    "screenshots": 11
+   },
+   "image": {
+    "src": "screenshots/01-setup.png",
+    "file": "img/trivia-night.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "ai-ops-atlas",
+   "title": "\ud83d\uddfa\ufe0f AI Ops Atlas: KPD Law Group internal operations",
+   "room": "Work",
+   "roomIndex": 3,
+   "desc": "Where can AI safely take busywork off KPD's plate, and in what order?",
+   "stats": {
+    "files": 35,
+    "loc": 884,
+    "tests": 1,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/01-overview.png",
+    "file": "img/ai-ops-atlas.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "trip-kit",
+   "title": "NCBA Trip Kit: Boyd at NCBA Connect 2026, Orlando (Oct 12\u201315)",
+   "room": "Work",
+   "roomIndex": 3,
+   "desc": "A one-page trip dashboard. It covers flights and confirmations, what's booked and what isn't, your four days merged with the conference agenda, AI sessions worth\u2026",
+   "stats": {
+    "files": 38,
+    "loc": 1055,
+    "tests": 1,
+    "screenshots": 9
+   },
+   "image": null,
+   "imageNote": "placard-only: private travel details (confirmation codes)"
+  },
+  {
+   "name": "slack-pulse",
+   "title": "Slack Pulse (TokenMax build night)",
+   "room": "Work",
+   "roomIndex": 3,
+   "desc": "A 14-day work dashboard for Boyd (kpdlawgroup Slack) covering Sep 24 to Oct 7, 2026 (ET).",
+   "stats": {
+    "files": 47,
+    "loc": 491,
+    "tests": 2,
+    "screenshots": 3
+   },
+   "image": null,
+   "imageNote": "placard-only: private work content"
+  },
+  {
+   "name": "docket-pilot",
+   "title": "Docket Pilot (KPD Law Group, internal prototype)",
+   "room": "Work",
+   "roomIndex": 3,
+   "desc": "Drop in a court notice or order (PDF, text, or a scanned PDF/image, which is read by local OCR).",
+   "stats": {
+    "files": 77,
+    "loc": 2865,
+    "tests": 2,
+    "screenshots": 13
+   },
+   "image": null,
+   "imageNote": "placard-only: private work content"
+  },
+  {
+   "name": "chopsticks",
+   "title": "Chopsticks",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "Fly a Super Heavy booster home through gusting winds and set its catch pins down on the tower's chopsticks: slow, upright and centred.",
+   "stats": {
+    "files": 43,
+    "loc": 1415,
+    "tests": 3,
+    "screenshots": 11
+   },
+   "image": {
+    "src": "screenshots/01-attract-catch.png",
+    "file": "img/chopsticks.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "mission-control",
+   "title": "Mission Control \u2014 SpaceX \u00b7 Starship \u00b7 Starlink wall",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "A cinematic dark wall dashboard for Boyd (TokenMax build night, Oct 7 2026; SHORTLIST idea #7).",
+   "stats": {
+    "files": 34,
+    "loc": 1115,
+    "tests": 1,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/wall-1440x900.png",
+    "file": "img/mission-control.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "boyd-wall",
+   "title": "\ud83d\udef0\ufe0f Boyd Wall: mission control for a TV or second monitor",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "A 1920\u00d71080 dark \"mission control\" dashboard for Boyd: SpaceX/Starship/Starlink launches with live T-minus countdowns, a Sports Desk for the Ravens, Terps, Chelsea\u2026",
+   "stats": {
+    "files": 64,
+    "loc": 2202,
+    "tests": 3,
+    "screenshots": 10
+   },
+   "image": {
+    "src": "screenshots/wall.png",
+    "file": "img/boyd-wall.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "bookmark-atlas",
+   "title": "Bookmark Atlas",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "An interactive dark-mode explorer of everything Boyd (@xristafer) bookmarked on X and everything his research bots saved about posts he follows.",
+   "stats": {
+    "files": 29,
+    "loc": 1346,
+    "tests": 1,
+    "screenshots": 13
+   },
+   "image": {
+    "src": "screenshots/01-galaxy.png",
+    "file": "img/bookmark-atlas.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "pods-radio",
+   "title": "Pods Radio \ud83d\udcfb",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "A daily radio show produced automatically from the YouTube and podcast feeds that Boyd's Pods bot watches: All-In, Moonshots (Peter Diamandis), Jesse Michels, and\u2026",
+   "stats": {
+    "files": 271,
+    "loc": 1871,
+    "tests": 6,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/01-player-latest.png",
+    "file": "img/pods-radio.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "bot-island-arcade",
+   "title": "bot-island-arcade",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "",
+   "stats": {
+    "files": 15,
+    "loc": 997,
+    "tests": 2,
+    "screenshots": 2
+   },
+   "image": {
+    "src": "screenshots/01-title.png",
+    "file": "img/bot-island-arcade.jpg",
+    "w": 960,
+    "h": 542
+   },
+   "imageNote": "scan.py cover pick"
+  },
+  {
+   "name": "kpd-ai-deck",
+   "title": "KPD AI Operations: What we've built, what's next (DRAFT)",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "Draft deck for Christopher Boyd's own review.",
+   "stats": {
+    "files": 5,
+    "loc": 337,
+    "tests": 0,
+    "screenshots": 2
+   },
+   "image": {
+    "src": "screenshots/00-best-title.png",
+    "file": "img/kpd-ai-deck.jpg",
+    "w": 960,
+    "h": 540
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "kpd-build-kits",
+   "title": "kpd-build-kits",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "",
+   "stats": {
+    "files": 4,
+    "loc": 0,
+    "tests": 0,
+    "screenshots": 0
+   },
+   "image": null,
+   "imageNote": "placard-only: no image found"
+  },
+  {
+   "name": "kpd-code-atlas",
+   "title": "KPD Code Atlas (TokenMax build night)",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "A map of KPD's code: 62 repositories, made up of all 56 in the kpdlawgroup org plus 6 KPD work repos in Boyd's BoydVC account (suit-kahuna, cp-imports-watcher,\u2026",
+   "stats": {
+    "files": 23,
+    "loc": 404,
+    "tests": 1,
+    "screenshots": 9
+   },
+   "image": {
+    "src": "screenshots/00-best-desktop-catalog.png",
+    "file": "img/kpd-code-atlas.jpg",
+    "w": 960,
+    "h": 667
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "ravens-sim",
+   "title": "Ravens Season Sim 2026 (TokenMax build night)",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "An interactive 2026 Baltimore Ravens season simulator styled like a purple-and-gold broadcast graphic.",
+   "stats": {
+    "files": 45,
+    "loc": 375,
+    "tests": 3,
+    "screenshots": 6
+   },
+   "image": {
+    "src": "screenshots/00-best-desktop.png",
+    "file": "img/ravens-sim.jpg",
+    "w": 960,
+    "h": 787
+   },
+   "imageNote": "00-best screenshot"
+  },
+  {
+   "name": "starlink-globe",
+   "title": "\ud83d\udef0\ufe0f Starlink Globe (TokenMax build night, Oct 7 2026)",
+   "room": "Space & Fun",
+   "roomIndex": 4,
+   "desc": "A 3D globe of the real current Starlink constellation.",
+   "stats": {
+    "files": 26,
+    "loc": 462,
+    "tests": 5,
+    "screenshots": 5
+   },
+   "image": {
+    "src": "screenshots/00-best-live-over-millersville.png",
+    "file": "img/starlink-globe.jpg",
+    "w": 960,
+    "h": 600
+   },
+   "imageNote": "00-best screenshot"
+  }
+ ],
+ "lobby": {
+  "usage": {
+   "used_pct": 51,
+   "reset_date": "2026-10-08",
+   "checked_at": "2026-10-07T18:50-04:00",
+   "label": "Grok Bot weekly included usage",
+   "reset_at": null,
+   "source": "Cursor usage dashboard (read by TokenMax)"
+  },
+  "strip": {
+   "src": "fleet-funnies/dist/png/build-night-special.png",
+   "file": "img/_build-night-special.jpg",
+   "w": 1600,
+   "h": 1550
+  }
+ },
+ "totals": {
+  "files": 2997,
+  "loc": 46757,
+  "tests": 85,
+  "screenshots": 345
+ }
+}
