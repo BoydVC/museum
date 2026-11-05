@@ -22,7 +22,7 @@ ROOMS = [
                                   "bot-launcher", "explainer-studio", "agent-playbook", "llm-box-advisor", "trailer", "recap"]),
     ("Sports", "Ravens · Orioles · Chelsea · Terps", ["sports-desk", "ravens-film-room", "orioles-2026", "chelsea-time-machine",
                                                       "chelsea-matchday", "terps-preview", "season-book"]),
-    ("Family & Kids", "Char, Vic and the Boyd household", ["fridge-board", "family-week", "times-archive", "hspt-quest",
+    ("Family & Kids", "Alex, Sam and the Boyd household", ["fridge-board", "family-week", "times-archive", "hspt-quest",
                                                            "math-arcade", "writing-studio", "trivia-night"]),
     ("Work", "KPD and the day job", ["ai-ops-atlas", "trip-kit", "slack-pulse", "docket-pilot"]),
     ("Space & Fun", "Starship, bookmarks and the rest", ["chopsticks", "mission-control", "boyd-wall", "bookmark-atlas", "pods-radio"]),

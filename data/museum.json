@@ -13,7 +13,7 @@
   },
   {
    "title": "Family & Kids",
-   "subtitle": "Char, Vic and the Boyd household",
+   "subtitle": "Alex, Sam and the Boyd household",
    "count": 7
   },
   {
@@ -390,7 +390,7 @@
   },
   {
    "name": "season-book",
-   "title": "Season Book: Fall 2026 yearbook + scorebook for Vic and Char",
+   "title": "Season Book: Fall 2026 yearbook + scorebook for Sam and Alex",
    "room": "Sports",
    "roomIndex": 1,
    "desc": "A yearbook-style scorebook for the Aug 1 \u2013 Dec 31, 2026 fall season, built from Boyd's Google Calendar and Gmail.",
@@ -413,7 +413,7 @@
    "title": "Boyd Fridge Board \ud83e\uddf2",
    "room": "Family & Kids",
    "roomIndex": 2,
-   "desc": "A warm, kid-friendly progress board for Char (8th grade) and Vic (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
+   "desc": "A warm, kid-friendly progress board for Alex (8th grade) and Sam (6th grade), sized for a kitchen tablet (1280\u00d7800 landscape).",
    "stats": {
     "files": 23,
     "loc": 1268,
@@ -473,7 +473,7 @@
    "title": "HSPT Quest \ud83e\udded",
    "room": "Family & Kids",
    "roomIndex": 2,
-   "desc": "A game-style practice app for Charlotte's HSPT (Nov 17, 2026, at SJE).",
+   "desc": "A game-style practice app for Alex's HSPT (Nov 17, 2026, at Northside Academy).",
    "stats": {
     "files": 37,
     "loc": 1454,
@@ -490,10 +490,10 @@
   },
   {
    "name": "math-arcade",
-   "title": "Vic's Math Arcade \ud83c\udfdf\ufe0f",
+   "title": "Sam's Math Arcade \ud83c\udfdf\ufe0f",
    "room": "Family & Kids",
    "roomIndex": 2,
-   "desc": "An arcade-style practice game for 6th-grade math, built for Vic (Green Hornets \u26bd, baseball \u26be).",
+   "desc": "An arcade-style practice game for 6th-grade math, built for Sam (Blue Comets \u26bd, baseball \u26be).",
    "stats": {
     "files": 49,
     "loc": 1120,
@@ -510,7 +510,7 @@
   },
   {
    "name": "writing-studio",
-   "title": "Char's Writing Studio",
+   "title": "Alex's Writing Studio",
    "room": "Family & Kids",
    "roomIndex": 2,
    "desc": "A calm, offline writing-practice app for an 8th grader: pick a prompt \u2192 plan \u2192 write with live feedback \u2192 self-check.",
